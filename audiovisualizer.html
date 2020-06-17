@@ -1,28 +1,28 @@
-<!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta content='IE=8' http-equiv='X-UA-Compatible'>
-		<meta name="author" content="Tomas Mozdren">
-        <title>Frequcency analysis using HTML5 Audio and Web Audio API</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/style.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css' />
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="src/bufferloader.js"></script>
-        <script src="src/id3-minimized.js"></script>
-        <script src="src/audiovisualisier.js"></script>
-    </head>
-    <body>		   
-       	<input type="file" id="input" onchange="handleFiles(this.files)"/>
-       	<span id="loading"></span>
-        <div id="song_info_wrapper">
-        	<div id="artist">Unknown Artist</div>
-			<div id="title">Unknown Titel</div>
-			<div id="album">Unknown Album</div>
-		</div>
-        <canvas id="freq" width="1024" height="525"></canvas>
-    </body>
-</html>
+<html><head>
+    <meta charset="utf-8">
+    <meta content="IE=8" http-equiv="X-UA-Compatible">
+    <meta name="author" content="Tomas Mozdren">
+    <title>Frequcency analysis using HTML5 Audio and Web Audio API</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/audiovisstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="src/bufferloader.js"></script>
+    <script src="src/id3-minimized.js"></script><script type="text/vbscript">
+</script>
+    <script src="src/audiovisualisier.js"></script>
+</head>
+<body>		   
+       <input type="file" id="input" onchange="handleFiles(this.files)">
+       <span id="loading"></span>
+    <div id="song_info_wrapper">
+        <div id="artist">Unknown Artist</div>
+        <div id="title">Unknown Titel</div>
+        <div id="album">Unknown Album</div>
+    </div>
+    <canvas id="freq" width="762" height="881"></canvas>
+
+</body></html>
